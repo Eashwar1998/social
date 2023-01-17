@@ -20,7 +20,7 @@ cur = conn.cursor()
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, Welcoeme to Social Media APP</p>"
 
 
 @app.route("/getMessages", methods=["GET"])
